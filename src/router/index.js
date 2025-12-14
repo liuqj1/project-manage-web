@@ -164,12 +164,12 @@ export const asyncRouterMap =[
         component: () => import('@/views/system_manage/permission_manage/index.vue'),
         meta: { title: '权限管理', icon: 'el-icon-lock' },
       },
-      {
-        path: 'data_backup',
-        name: 'data_backup',
-        component: () => import('@/views/system_manage/data_backup/index.vue'),
-        meta: { title: '数据备份', icon: 'el-icon-s-data' },
-      }
+      // {
+      //   path: 'data_backup',
+      //   name: 'data_backup',
+      //   component: () => import('@/views/system_manage/data_backup/index.vue'),
+      //   meta: { title: '数据备份', icon: 'el-icon-s-data' },
+      // }
     ]
   }
 ]

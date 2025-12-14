@@ -243,63 +243,63 @@ export default {
             {
               case "软件著作权":
                 if(data[i].quality==0)
-                  data00++;
+                  data00+=data[i].count;
                 if(data[i].quality==1)
-                  data01++;
+                  data01+=data[i].count;
                 if(data[i].quality==2)
-                  data02++;
+                  data02+=data[i].count;
                 if(data[i].quality==3)
-                  data03++;
+                  data03+=data[i].count;
                 if(data[i].quality==4)
-                  data04++;
+                  data04+=data[i].count;
                 break;
               case "发明型专利":
                 if(data[i].quality==0)
-                  data10++;
+                  data10+=data[i].count;
                 if(data[i].quality==1)
-                  data11++;
+                  data11+=data[i].count;
                 if(data[i].quality==2)
-                  data12++;
+                  data12+=data[i].count;
                 if(data[i].quality==3)
-                  data13++;
+                  data13+=data[i].count;
                 if(data[i].quality==4)
-                  data14++;
+                  data14+=data[i].count;
                 break;
               case "外观型专利":
                 if(data[i].quality==0)
-                  data20++;
+                  data20+=data[i].count;
                 if(data[i].quality==1)
-                  data21++;
+                  data21+=data[i].count;
                 if(data[i].quality==2)
-                  data22++;
+                  data22+=data[i].count;
                 if(data[i].quality==3)
-                  data23++;
+                  data23+=data[i].count;
                 if(data[i].quality==4)
-                  data24++;
+                  data24+=data[i].count;
                 break;
               case "实用型专利":
                 if(data[i].quality==0)
-                  data30++;
+                  data30+=data[i].count;
                 if(data[i].quality==1)
-                  data31++;
+                  data31+=data[i].count;
                 if(data[i].quality==2)
-                  data32++;
+                  data32+=data[i].count;
                 if(data[i].quality==3)
-                  data33++;
+                  data33+=data[i].count;
                 if(data[i].quality==4)
-                  data34++;
+                  data34+=data[i].count;
                 break;
               case "论文":
                 if(data[i].quality==0)
-                  data40++;
+                  data40+=data[i].count;
                 if(data[i].quality==1)
-                  data41++;
+                  data41+=data[i].count;
                 if(data[i].quality==2)
-                  data42++;
+                  data42+=data[i].count;
                 if(data[i].quality==3)
-                  data43++;
+                  data43+=data[i].count;
                 if(data[i].quality==4)
-                  data44++;
+                  data44+=data[i].count;
                 break;
             }
           }
